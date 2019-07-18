@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  font-family: 'Baloo', cursive;
+  margin: 0;
+}
+
+
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/552784/pexels-photo-552784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: round;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Paytone One', sans-serif;
+}
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+#trails {
+  width: 100%;
+  height: 100vh;
+    background-color: #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  margin: 0;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Paytone One', sans-serif;
+}
+#trails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: calc(100% - 200px);
+}
+.trail {
+  width: 33%;
+  border: 5px solid #0f2b4e;
+  background-color: #fff;
+  text-align: center;
+  height: 45%;
+  padding: 30px;
+  margin: 20px;
+}
+h4 {
+  margin: 0;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: 'Paytone One', sans-serif;
+}
+.trail-desc {
+  line-height: 26px;
+  height: 60%;
+  margin: 0;
+  color: #666;
+}
